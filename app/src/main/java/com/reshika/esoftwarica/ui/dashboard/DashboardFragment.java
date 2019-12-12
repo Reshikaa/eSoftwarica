@@ -109,17 +109,17 @@ private boolean validate(){
     @Override
     public void onClick(View v) {
 //
-//        name=etFull.getText().toString();
-//        age=etAge.getText().toString();
-//        address=etAddress.getText().toString();
+        name=etFull.getText().toString();
+        age=etAge.getText().toString();
+        address=etAddress.getText().toString();
 //
 //        if(validate())
 //        {
 //            MainActivity.st.add(new Contacts(name,gender,age,address));
-//            Toast.makeText(getContext(), "Student has been added", Toast.LENGTH_LONG).show();
-//            etFull.setText(null);
-//            etAge.setText(null);
-//            etAddress.setText(null);
+            Toast.makeText(getContext(), "Student has been added", Toast.LENGTH_LONG).show();
+            etFull.setText(null);
+            etAge.setText(null);
+            etAddress.setText(null);
 //
 //        }
     }
